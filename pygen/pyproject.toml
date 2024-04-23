@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygen"
+version = "0.0.0"
+
+[project.scripts]
+genfile = "pygen.gen:run"
